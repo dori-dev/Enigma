@@ -1,4 +1,4 @@
-"""code and decode the text
+"""Code and decode the message
 """
 from pickle import load
 from string import ascii_lowercase as ALPHABET
