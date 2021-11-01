@@ -9,7 +9,8 @@ python rotor_generator.py
 python enigma_code_decode.py
 ```
 
-## step 1, run the `rotor_generator.py`
+## run the `rotor_generator.py`
+It will produce a rotor configuration saved in `rotor_state.enigma` file.
 
-
-## step 2, 
+## run the `enigma_code_decode.py`
+In the command line to `code` or `decode` the message(also you can set rotors sate).
