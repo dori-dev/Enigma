@@ -151,5 +151,4 @@ for letter in plain:
     cipher += enigma_one_char(letter)
     ROTOR1, ROTOR2, ROTOR3 = rotate_rotors((ROTOR1, ROTOR2, ROTOR3))
 
-print()
-print(cipher)
+print(f'\n{cipher}')
