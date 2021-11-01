@@ -6,6 +6,19 @@ from pickle import dump
 from string import ascii_lowercase as ALPHABET
 ALPHABET += ' '
 
+
+def create_rotor() -> str:
+    """make rotor
+
+    Returns:
+        str: rotor alphabet(random)
+    """
+    rotor = list(ALPHABET)
+    shuffle(rotor)
+    return ''.join(rotor)
+
+
+
 r1 = list(ALPHABET)
 shuffle(r1)
 ROTOR1 = ''.join(r1)
