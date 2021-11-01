@@ -1,4 +1,4 @@
-"""Code and decode the message
+"""code and decode the text
 """
 from pickle import load
 from string import ascii_lowercase as ALPHABET
@@ -136,7 +136,7 @@ def input_rotor_numbers() -> tuple:
 
 
 plain = input('enter text: ').lower()  # convert to lower character
-plain = ''.join([letter for letter in plain if letter in ALPHABET])  # select valid character
+plain = ''.join([x for x in plain if x in ALPHABET])  # select valid character
 
 if input('Do you want to set rotors(y/N)? ').lower() == 'y':
     state = set_state(*input_rotor_numbers())
@@ -151,4 +151,5 @@ for letter in plain:
     cipher += enigma_one_char(letter)
     ROTOR1, ROTOR2, ROTOR3 = rotate_rotors((ROTOR1, ROTOR2, ROTOR3))
 
-print(f'\n{cipher}')
+print()
+print(cipher)

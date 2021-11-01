@@ -18,18 +18,11 @@ def create_rotor() -> str:
     return ''.join(rotor)
 
 
+ROTOR1 = create_rotor()
 
-r1 = list(ALPHABET)
-shuffle(r1)
-ROTOR1 = ''.join(r1)
+ROTOR2 = create_rotor()
 
-r2 = list(ALPHABET)
-shuffle(r2)
-ROTOR2 = ''.join(r2)
-
-r3 = list(ALPHABET)
-shuffle(r3)
-ROTOR3 = ''.join(r3)
+ROTOR3 = create_rotor()
 
 with open('./rotor_state.enigma', 'wb') as file:
     dump((ROTOR1, ROTOR2, ROTOR3), file)
