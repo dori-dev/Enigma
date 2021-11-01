@@ -13,4 +13,4 @@ python enigma_code_decode.py
 It will produce a rotor configuration saved in `rotor_state.enigma` file.
 
 ## run the `enigma_code_decode.py`
-In the command line to `code` or `decode` the message(also you can set rotors sate).
+In the command line to `code` or `decode` the message(also you can set rotors state).
