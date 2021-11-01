@@ -138,7 +138,7 @@ def input_rotor_numbers() -> tuple:
 plain = input('enter text: ').lower()  # convert to lower character
 plain = ''.join([letter for letter in plain if letter in ALPHABET])  # select valid character
 
-if input('Do you want to set rotors(y/N)? ') == 'y':
+if input('Do you want to set rotors(y/N)? ').lower() == 'y':
     state = set_state(*input_rotor_numbers())
     ROTOR1, ROTOR2, ROTOR3 = set_rotors(state, (ROTOR1, ROTOR2, ROTOR3))
 else:
