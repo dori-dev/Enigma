@@ -23,4 +23,4 @@ In the command line to `code` or `decode` the message(also you can set rotors st
 
 Download Source Code: [Click Here](https://github.com/dori-dev/Enigma/archive/refs/heads/main.zip)
 
-My github acount: [Click Here](https://github.com/dori-dev/)
+My Github Acount: [Click Here](https://github.com/dori-dev/)
