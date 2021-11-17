@@ -1,5 +1,6 @@
 """Code and decode the text.
 """
+
 from pickle import load
 from string import ascii_lowercase as ALPHABET
 ALPHABET += ' '
