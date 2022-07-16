@@ -1,4 +1,4 @@
-"""Generate the rotor for enigma machin.
+"""Generate the rotor for enigma machine.
 """
 
 from random import shuffle
